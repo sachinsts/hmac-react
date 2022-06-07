@@ -70,22 +70,3 @@ function App() {
 }
   
 export default App;
-
-
-
-        // let secret1 = '123bnxnhsda78q&*as@';
-        // const secret = utf8.encode(secret1);
-        // // var secret = binaryToBase64(secret_bytes);
-        // var message = utf8.encode(url)
-        // // var message = binaryToBase64(message_byte);
-        // const currentDate = new Date();
-        // const timestamp = currentDate.getTime();
-
-        // let base = 'v0:%s:%s' % (timestamp, utf8.decode(message))
-        // let test = crypto.createHmac('sha256', "key").update("json").digest("base64");
-        // console.log(test)
-        // console.log(CryptoJS.HmacSHA1( message, secret));
-        // const sign = crypto.createHmac('sha256', secret).update(base).digest('base64');
-        // console.log("signature", sign)
-        // const header = {"signature" : sign, "timestamp" : timestamp}
-        // { headers: {'signature': digest, 'timestamp': timestamp}}
